@@ -1,0 +1,1 @@
+Synchronous Programming: Sequential programming based on clock speed of our processor

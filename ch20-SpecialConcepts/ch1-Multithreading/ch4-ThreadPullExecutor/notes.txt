@@ -1,0 +1,14 @@
+Thread Pool : A thread pool is just an allocation of memory declared at the beginning of the program so that during run time the memory management doesn't have to try to make room for new threads. You could use all of them or you can use none of them,it doesn't matter to the OS 
+Thread pool executor : is a way to manage and optimize concurrent execution of multiple tasks in Python. When you have multiple tasks that can be executed in parallel, using a thread pool can improve the efficiency of your program by enabling multiple tasks to be executed at the same time.
+
+Here are some reasons why you might want to use a thread pool executor in Python:
+
+Improved performance: By using a thread pool executor, you can execute multiple tasks in parallel, which can lead to improved performance and reduced execution time.
+
+Reduced resource consumption: Threads are lightweight compared to processes, and using a thread pool executor can help reduce the overall resource consumption of your program.
+
+Simplified code: Managing threads and synchronization can be complex, but by using a thread pool executor, you can simplify your code by delegating the management of threads to the executor.
+
+Improved scalability: Thread pool executor provides a scalable solution for concurrent programming. It can manage a large number of tasks and adjust the number of threads based on the available resources.
+
+Overall, using a thread pool executor in Python can help you build efficient, scalable, and responsive applications that can handle a high volume of concurrent tasks.
