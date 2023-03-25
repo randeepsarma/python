@@ -1,0 +1,21 @@
+Types of inheritance 
+1)Single inheritance: A->B
+   class Employee{}
+   class Programmer(Employee){}
+2)Multiple inheritance: A->C<-B
+   class Employee{}
+   class Assistant{}
+   class Programmer(Employee,Assistant){}
+3)Hierarchical inheritance: A->C,A->B
+   class Employee{}
+   class Assistant(Employee){}
+   class Programmer(Employee){}
+4)Multi Level inheritance: A->B->C
+   class Employee{}
+   class Programmer(Employee){}
+   class EventOrganiser(Programmer){} 
+5)Hybrid inheritance: A->B,A->C,B->D,C->D
+   class A{}
+   class B(A){}
+   class C(A){}
+   class D(B,C){}   
